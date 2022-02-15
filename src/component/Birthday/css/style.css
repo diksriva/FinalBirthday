@@ -1,0 +1,85 @@
+.day {
+    background: #aba0ec;
+    padding: 5px;
+    color: #e2def8;
+    text-align: right;
+    font-weight: bold;
+  }
+  .key0 {
+    background: #545c7b;
+
+  }
+  .key1 {
+    background: #a0d201;
+
+  }
+  .key2 {
+    background: #c87d99;
+
+  }
+  .key3 {
+    background: #79cae3;
+  }
+  .key4 {
+    background: #e64a33;
+  }
+  .dname{
+    color: #fdfdfd;
+  }
+  
+  
+.col-md-1 {
+  height: 100px;
+    padding: 10px;
+
+}
+
+@media (min-width: 768px){
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1  {
+    width: 100%;
+    *width: 100%;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 45% !important;
+  padding: 10px;
+  margin-left:2px;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  width: 100% !important;
+  content: "";
+  display: table;
+  clear: both;
+}
